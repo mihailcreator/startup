@@ -1,0 +1,220 @@
+.menu{
+	width: 100%;
+	text-align: center;
+	position:fixed;
+	top:0;
+	z-index:2;
+	background-color: white;
+	opacity: 80%;
+}
+.menu a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 15px;
+	padding:20px 40px;
+	color:black;
+	font-weight: lighter;
+	width: 100px;
+
+}
+.menu a:hover{
+	background-color: #ccc;
+}
+.startap{
+	text-align: center;
+	background-image:url(img/polygons.png);
+	background-repeat: no-repeat;
+	background-position:top center;
+	background-attachment: fixed;
+	padding:200px 0px;
+	margin-top:58px;
+}
+.oneh2{
+	color:white;
+	margin-bottom: 40px;
+}
+body{
+	margin:0px;
+}
+.onep1{
+	color: white;
+	font-size: 13px;
+	margin-bottom: 40px;
+
+}
+ .startap a{
+ 	text-decoration: none;
+ 	background-color: white;
+ 	padding: 12px 24px;
+ 	border-radius: 10px;
+ 	color:black;
+
+}
+.startap a:hover{
+	background-color:#b1b1b2; 
+}
+.about h2{
+	text-align: center;
+}
+.about{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding :40px 0px;
+	text-align: justify;
+}
+.about img{
+	width: 400px;
+	margin:30px;
+	margin-top:0px;
+	float:right;
+}
+.member{
+	display: inline-block;
+	width: 19%;
+	margin:20px 10px;
+	padding:20px;
+	border:solid 2px #ccc;
+	border-radius: 4px;
+	box-shadow: 0px 2px 5px gray;
+	min-width: 250px;
+
+}
+.member a {
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	text-decoration:none;
+	color:white;
+	padding:14px 0px;
+	background-color: #055b73;
+	border-radius: 10px;
+}
+.comand{
+	text-align: center;
+}
+.los{
+	text-align: center;
+}
+.member img{
+	width: 100%;
+	text-align: center;
+}
+.position{
+	color:gray;
+}
+.dis{
+	width: 265px;
+	height: 54px;
+}
+.price{
+	background-color: #616161;
+	text-align: center;
+	padding:50px 0px;
+}
+.price h2, .price p{
+	color:white;
+}
+.price_list{
+	display: inline-block;
+	width: 30%;
+	min-width: 150px;
+	margin:10px;
+	background-color: white;
+	padding:0px;
+	vertical-align: middle;
+}
+li{
+	list-style-type: none;
+	border-bottom:solid 1px #ddd;
+	padding:16px 0px;
+}
+.price_name{
+	background-color: black;
+	color:white;
+	font-size:24px;
+	padding:32px 0px;
+}
+p.p1{
+	color:black;
+	font-size: 24px;
+	font-weight: bold;
+}
+p.p2{
+	color:black;
+	opacity: 40%;
+}
+.price_list a{
+	background-color: black;
+	padding:12px 24px;
+	color:white;
+	text-decoration: none;
+	border-radius: 10px;
+
+}
+.price_list a:hover{
+	background-color:white;
+	color:black;
+}
+ .price_list li:last-child{
+ 	background-color: #f1f1f1;
+ 	padding:24px 0px;
+ }
+ .important{
+ 	font-weight: bold;
+ }
+ .price_name_pro{
+ 	background-color: #055b73;
+ 	color:white;
+ 	font-size:24px;
+ 	padding:48px 0px;
+ }
+ .contacts{
+ 	background-color: #f1f1f1;
+ 	padding: 40px 0px;
+ 	text-align: center;
+ }
+ .p4{
+ 	background-image: url(img/address.png)
+ }
+ .p5{
+ 	background-image: url(img/phone.png);
+ }
+ .p6{
+ 	background-image: url(img/mail.png);
+ }
+ .paragraph{
+ 	text-align: left;
+ 	padding-left: 30px;
+ 	background-repeat: no-repeat;
+ 	background-position: left center;
+ 	margin-left: 5%;
+ 	background-size: 18px 18px;
+ }
+ input{
+ 	display: block;
+ 	width: 90%;
+ 	padding:8px;
+ 	margin-left:5%;
+ 	margin-bottom:15px;
+ }
+ input[type=submit]{
+ 	background-color: black;
+ 	color:white;
+ 	width: 250px;
+ 	padding:8px 8px;
+ 	border-radius: 10px;
+ 	border:none;
+ 	outline: none;
+ 	cursor: pointer;
+ 	text-align: center;
+ 	margin:0px auto;
+ }
+input[type=submit]:hover{
+	background-color: white;
+	color:black;
+}
+footer{
+	background-color: black;
+	width: 100%;
+	color:white;
+}

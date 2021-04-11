@@ -1,0 +1,29 @@
+@media(max-width: 575px){
+	.menu{
+		position:inherit;
+	}
+	.menu a{
+		width:100%;
+		padding:20px 0px;
+	}
+	.startap{
+		margin-top:0px;
+		padding:100px 10px;
+		background-size: cover;
+		background-position: center center;
+		min-height: 300px;
+	}
+	.about img{
+		width: 90%;
+		float:inherit;
+		margin:10px 5%;
+	}
+	.member{
+		min-width: 80%;
+		margin:5% 5%;
+
+	}
+	.price_list{
+		min-width: 90%;
+	}
+}
